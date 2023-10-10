@@ -170,3 +170,41 @@ main{
     text-align: center;
     margin-bottom: 100px;
 }
+
+/*footer design*/
+
+.footer{
+    max-width: 1140px;
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    padding: 130px 250px;
+}
+.main-footer{
+    background-color: #FFF8F3;
+}
+.footer-item{
+    width: 511px;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.social-icon{
+    margin-left: 10px;
+}
+.footer-address{
+    margin-bottom: 20px;
+}
+.footer-item input[type = "text"], input[type = "email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 10px;
+}
+.footer-item a{
+    text-decoration: none;
+}
